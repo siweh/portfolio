@@ -75,36 +75,3 @@ footer {
     background-color: rgb(180, 134, 9);
     color: white;
   }
-
-  .mobile-view{
-      display: flex;
-    }
-
-
-  .laptop-view{
-    display: flex;
-    width: initial;
-}
-
-
-  @media (min-width: 320px) and (max-width: 1990px){
-    .col {
-        flex: 1;
-        padding: 1em;
-        font-size: 5px !important;
-        }
-    
-        .mobile-view .row3{
-            display: flex; 
-            font-size: 15px !important;
-        }
-        .mobile-view .col {
-            flex: 1;
-            padding: 1em;
-        }
-    }
-
-@media screen and (max-width: 768px){
-    .laptop-view{display: flex;}
-    .mobile-view{display: flex;}
-}
